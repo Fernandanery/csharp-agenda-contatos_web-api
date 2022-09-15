@@ -1,5 +1,5 @@
 # Agenda de contatos
- * Consutruindo uma agenda que será executada através de API, dando a possibilidade de inclusão de contatos, pesquisa de contatos, edição de contatos e exclusao dos mesmos.
+ * Consutruindo uma agenda que será executada através de API com a possibilidade de inclusão, alteração, listagem, pesquisa e exlusão de contato.
  * Endpoints documentados através do Swagger
 
 # Tecnologias utilizadas
