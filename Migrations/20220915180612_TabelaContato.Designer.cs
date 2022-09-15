@@ -2,17 +2,15 @@
 using Curso_API.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
 namespace Curso_API.Migrations
 {
     [DbContext(typeof(AgendaContext))]
-    [Migration("20220914234532_CriandoTabelaContato")]
-    partial class CriandoTabelaContato
+    [Migration("20220915180612_TabelaContato")]
+    partial class TabelaContato
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

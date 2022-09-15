@@ -4,7 +4,7 @@
 
 namespace Curso_API.Migrations
 {
-    public partial class CriandoTabelaContato : Migration
+    public partial class TabelaContato : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "15RLdceBU+I2IaqVVtOhpsgClQgKYuZlxK8W78iT+w2vk4md9lJSWqbTWzKFJyR1KtzRJqkWU6YcgX/C9IPyCQ==",
+  "dgSpecHash": "zEhN+UsKIS3ZVOD32D4JZei4aU17q/jT0YHhn3SN4l2RzJk+/UmQGPQ60WCrD115G/dTQ7UWave3hC4UUwZr3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\AgendaContatos_WebApi\\Curso_API.csproj",
+  "projectFilePath": "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\AgendaContatos_WebApi\\AgendaContatos_WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ferna\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
