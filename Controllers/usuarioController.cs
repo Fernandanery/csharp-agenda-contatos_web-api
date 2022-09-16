@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Curso_API.Controllers
+namespace AgendaContatos_WebAPI
 {
 
     [Route("[Controller]")]

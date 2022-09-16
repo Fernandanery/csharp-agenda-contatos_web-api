@@ -1,5 +1,5 @@
-using Curso_API.Context;
-using Curso_API.Entities;
+using AgendaContatos_WebAPI;
+using AgendaContatos_WebAPI.Context;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgendaContatos_WebApi.Controllers
@@ -22,7 +22,7 @@ namespace AgendaContatos_WebApi.Controllers
             return Ok(contato);
         }
 
-        [HttpGet("{id}")]
+        /*[HttpGet("{PesquisaPorId}")]
         public IActionResult ObterPorId(int id)
         {
             var contato = _context.Contatos.Find(id);
@@ -30,6 +30,13 @@ namespace AgendaContatos_WebApi.Controllers
                 return NotFound();
 
             return Ok(contato);
+        }*/
+
+        [HttpGet("{PesquisaPorNome}")]
+        public IActionResult ObterPorNome (string nome) 
+        {
+            var contatos = _context.Contatos.Where(x => x.Nome.Contains(nome));
+            return Ok (contatos);
         }
 
         [HttpPut("{id}")]
@@ -51,5 +58,18 @@ namespace AgendaContatos_WebApi.Controllers
 
         }
 
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            var contatoBanco = _context.Contatos.Find(id);
+
+            if (contatoBanco == null)
+                return NotFound();
+
+            _context.Contatos.Remove(contatoBanco);
+            _context.SaveChanges();
+
+            return NoContent();
+        }
     }
 }

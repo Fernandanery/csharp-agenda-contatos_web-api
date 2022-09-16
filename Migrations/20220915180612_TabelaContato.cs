@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Curso_API.Migrations
+namespace AgendaContatos_WebAPI
 {
     public partial class TabelaContato : Migration
     {

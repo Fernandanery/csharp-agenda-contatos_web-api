@@ -1,4 +1,4 @@
-namespace Curso_API.Entities
+namespace AgendaContatos_WebAPI
 {
     public class Contato
     {

@@ -1,4 +1,4 @@
-using Curso_API.Context;
+using AgendaContatos_WebAPI.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
